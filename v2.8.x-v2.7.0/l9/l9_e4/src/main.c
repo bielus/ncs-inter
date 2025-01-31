@@ -9,11 +9,9 @@
 
 /* STEP 4.4 - Include header for usb */
 
-
 /* 1000 msec = 1 sec */
 
 /* STEP 2.4 - Change LED timing to create a new image for DFU */
-#define SLEEP_TIME_MS   1000
 
 /* The devicetree node identifier for the "led0" alias. */
 #define LED0_NODE DT_ALIAS(led0)
@@ -28,7 +26,7 @@ int main(void)
 {
 	int ret;
 
-  /* Step 4.5 - Enable USB */
+  /* STEP 4.5 - Enable USB */
 
 	if (!device_is_ready(led.port)) {
 		return 0;

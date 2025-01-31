@@ -5,6 +5,4 @@
   };
 };
 
-/* Step 2.2 - Configure CDC_ACM */
-
-/* Step 8.1 - Add external flash */
+/* Step X.X - Configure CDC ACM */
